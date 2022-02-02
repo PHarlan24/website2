@@ -11,6 +11,9 @@
     position: fixed;
     left: 180px;
     top: 300px;
+    border-right-style: solid;
+    border-right-color: rgb(165, 165, 165);
+    border-right-width:thin;
 }
 
 .crop2{
@@ -26,6 +29,9 @@
     position: fixed;
     left: 580px;
     top: 300px;
+    border-right-style: solid;
+    border-right-color: rgb(165, 165, 165);
+    border-right-width:thin;
 }
 
 .crop3{
@@ -41,6 +47,9 @@
     position: fixed;
     left: 920px;
     top: 300px;
+    border-right-style: solid;
+    border-right-color: rgb(165, 165, 165);
+    border-right-width:thin;
 }
 
 .crop4{
@@ -48,12 +57,12 @@
     width: 100%;
     position: fixed;
     top: 290px;
-    left: 1220px;
+    left: 1240px;
     
 }
 
 .pos-card4{
     position: fixed;
-    left: 1280px;
+    left: 1300px;
     top: 300px;
 }

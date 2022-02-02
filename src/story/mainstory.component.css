@@ -10,16 +10,19 @@
 .pos-story{
     position: fixed;
     left: 140px;
-    top: 770px;
     
 }
 
 .font-title{
     font-size: 30px;
+    position: fixed;
+    top: 800px;
     width: 700px;
 }
 
 .font-body{
+    position: fixed;
     font-size: 16px;
+    top: 840px;
     width: 620px;
 }
