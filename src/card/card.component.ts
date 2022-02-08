@@ -1,4 +1,4 @@
-import { Component } from "@angular/core";
+import { Component, Input} from "@angular/core";
 
 @Component({
    selector: 'fm-card',
@@ -6,5 +6,12 @@ import { Component } from "@angular/core";
    styleUrls: ['card.component.css'] 
 })
 export class CardComponent{
+   @Input() img: string;
+   @Input() description: string;
+   
+   constructor(){
+      this.img = "/assets/rangoon.jpg";
+      this.description = "Error";
+   }
 
 }

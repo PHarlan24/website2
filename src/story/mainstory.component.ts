@@ -1,4 +1,4 @@
-import { Component } from "@angular/core";
+import { Component,Input } from "@angular/core";
 
 @Component({
    selector: 'fm-mainstory',
@@ -7,4 +7,13 @@ import { Component } from "@angular/core";
 })
 export class MainStoryComponent{
 
+   @Input() img: string;
+   @Input() title: string;
+   @Input() description: string;
+
+   constructor(){
+      this.img = "/assets/search.png";
+      this.title = "XXXX";
+      this.description = "No description";
+   }
 }
