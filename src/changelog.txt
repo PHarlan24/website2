@@ -1,5 +1,12 @@
-
+2/15
 Added links and routing to 6 tabs on the second navigation bar. Home, Latest, News, Local, Entertainment, and Politics now once clicked 
 will take you to that represented page and each page has a description of what should be on that page.
 
 Each page also has the navigation bar but does not show the cards or main story component that is shown on the home page.
+
+2/22
+Added components to the Latestand Entertainment Layout components
+
+Each Component was made using a ngFor and mock list to maintain the formatting of each card
+
+Created 3 vertical cards and 4 horizontal cards
