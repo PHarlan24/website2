@@ -5,7 +5,7 @@ import { MockNewsInBriefModel } from "./mock_newsinbrief.model";
 @Component({
     selector: 'fm-entertainment',
     templateUrl: 'entertainment.component.html',
-    styleUrls: ['topnavbar.component.css'] 
+    styleUrls: ['entertainment.component.css'] 
 })
 export class EntertainmentComponent{
     products: MockNewsInBriefModel[] = [];

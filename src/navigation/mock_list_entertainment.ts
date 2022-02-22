@@ -1,21 +1,27 @@
 export const mock_list_entertainment = [
     {
-        img: "./assets/goat.jpg",
-        subtitle: "Opinion >> American Voices",
-        title: "This Goat is on the Loose" ,
+        img: "./assets/oscar.jpg",
+        subtitle: "News in Brief",
+        title: "Oscars Awards Best Picture to Another Film No One Has Ever Heard Of" ,
         
     },
     {
-        img: "./assets/destruction.jpg",
-        subtitle: "News in Brief >> Breaking News",
-        title: "Goat is Still on the Loose" ,
+        img: "./assets/grey.jpg",
+        subtitle: "News in Brief",
+        title: "Grey's Anatomy Season 245 Coming Out this Summer" ,
         
     
     },
     {
-        img: "./assets/hide.jpg",
-        subtitle: "Local >> Breaking News",
-        title: "Goat is on the Loose in Your Local Area" ,
+        img: "./assets/overwatch.jpg",
+        subtitle: "News in Brief",
+        title: "Overwatch 2 Plans to Release in May 2043" ,
+    
+    },
+    {
+        img: "./assets/spoon.jpg",
+        subtitle: "News in Brief",
+        title: "Turns Out There Was A Spoon" ,
     
     }
     ]
