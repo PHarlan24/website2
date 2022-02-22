@@ -1,4 +1,6 @@
 import { Component } from "@angular/core";
+import { mock_list_entertainment} from "./mock_list_entertainment";
+import { MockNewsInBriefModel } from "./mock_newsinbrief.model";
 
 @Component({
     selector: 'fm-entertainment',
@@ -6,5 +8,12 @@ import { Component } from "@angular/core";
     styleUrls: ['topnavbar.component.css'] 
 })
 export class EntertainmentComponent{
+    products: MockNewsInBriefModel[] = [];
 
+    constructor() {
+        for(var product of mock_list_entertainment){
+            console.log(product);
+            this.products.push(product);
+        }
+    }
 }

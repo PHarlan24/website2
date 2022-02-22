@@ -1,7 +1,9 @@
 <fm-topnavbar>Loading...</fm-topnavbar>
 
-<div class="card describe">
-    <div class="card-body">
-      Page should have an Latest title along with articles/videos underneath that relate to latest articles
-    </div>
+<div class = "container-fluid ">
+  <div *ngFor="let product of products">
+    <fm-latest-news class = "m-5" img={{product.img}} subtitle={{product.subtitle}} title={{product.title}} description={{product.description}}>
+      Loading...
+    </fm-latest-news>
   </div>
+</div>

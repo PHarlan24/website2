@@ -5,8 +5,6 @@ import { TopNavBarComponent } from 'src/navigation/topnavbar.component';
 import { CardComponent } from 'src/card/card.component';
 import { MainStoryComponent } from 'src/story/mainstory.component';
 
-
-
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { LastestComponent } from 'src/navigation/lastest.component';
@@ -15,6 +13,10 @@ import { NewsComponent } from 'src/navigation/news.component';
 import { LocalComponent } from 'src/navigation/local.component';
 import { EntertainmentComponent } from 'src/navigation/entertainment.component';
 import { PoliticsComponent } from 'src/navigation/politics.component';
+import { LatestNewsComponent } from 'src/navigation/latest-news.component';
+import { EntertainmentNewsInBriefComponent } from 'src/navigation/entertainment-newsinbrief.component';
+
+
 
 
 
@@ -29,7 +31,9 @@ import { PoliticsComponent } from 'src/navigation/politics.component';
     NewsComponent,
     LocalComponent,
     EntertainmentComponent,
-    PoliticsComponent
+    PoliticsComponent,
+    LatestNewsComponent,
+    EntertainmentNewsInBriefComponent
 
 
   ],
