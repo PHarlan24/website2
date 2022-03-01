@@ -1,0 +1,9 @@
+<p *ngIf="myInfo == undefined">Failed fetching user info</p>
+<div *ngIf="myInfo != undefined" class="card form">
+    <div class="card-body">
+            <p class="card-text">User First Name: {{myInfo.FirstName}}</p>
+            <p class="card-text">User Last Name: {{myInfo.LastName}}</p>
+            <p class="card-text">User Mix ID: {{myInfo.mix_id}}</p>
+            <a href={{myInfo.GitHub}}>GitHub: {{myInfo.GitHub}}</a>
+        </div>
+</div>

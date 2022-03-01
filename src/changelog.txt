@@ -10,3 +10,8 @@ Added components to the Latestand Entertainment Layout components
 Each Component was made using a ngFor and mock list to maintain the formatting of each card
 
 Created 3 vertical cards and 4 horizontal cards
+
+3/1
+Created a database on firebase and populated it with basic info
+
+This database is now linked to my website where the information from the database is shown on a card on my home page

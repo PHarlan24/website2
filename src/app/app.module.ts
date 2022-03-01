@@ -15,6 +15,8 @@ import { EntertainmentComponent } from 'src/navigation/entertainment.component';
 import { PoliticsComponent } from 'src/navigation/politics.component';
 import { LatestNewsComponent } from 'src/navigation/latest-news.component';
 import { EntertainmentNewsInBriefComponent } from 'src/navigation/entertainment-newsinbrief.component';
+import { UserInfoComponent } from './user-info/user-info.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 
@@ -33,13 +35,16 @@ import { EntertainmentNewsInBriefComponent } from 'src/navigation/entertainment-
     EntertainmentComponent,
     PoliticsComponent,
     LatestNewsComponent,
-    EntertainmentNewsInBriefComponent
+    EntertainmentNewsInBriefComponent,
+    UserInfoComponent
+    
 
 
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
