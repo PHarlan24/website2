@@ -15,3 +15,9 @@ Created 3 vertical cards and 4 horizontal cards
 Created a database on firebase and populated it with basic info
 
 This database is now linked to my website where the information from the database is shown on a card on my home page
+
+3/8
+Linked a mock list to the firebase so the developer tools shows the data used in the cards
+
+3/22
+Connected github and firebase database together by using angularfire

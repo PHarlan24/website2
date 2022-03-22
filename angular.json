@@ -32,7 +32,6 @@
             ],
             "scripts": [
               "./node_modules/bootstrap/dist/js/bootstrap.js"
-
             ]
           },
           "configurations": {
@@ -41,7 +40,7 @@
                 {
                   "type": "initial",
                   "maximumWarning": "500kb",
-                  "maximumError": "1mb"
+                  "maximumError": "5mb"
                 },
                 {
                   "type": "anyComponentStyle",
@@ -101,6 +100,16 @@
               "src/styles.css"
             ],
             "scripts": []
+          }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "website-2:build:production",
+            "firebaseProject": "the-onion-c187d",
+            "firebaseHostingSite": "the-onion-c187d"
           }
         }
       }

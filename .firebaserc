@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "the-onion-c187d"
+  },
+  "targets": {
+    "the-onion-c187d": {
+      "hosting": {
+        "website-2": [
+          "the-onion-c187d"
+        ]
+      }
+    }
+  }
+}
