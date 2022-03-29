@@ -21,3 +21,6 @@ Linked a mock list to the firebase so the developer tools shows the data used in
 
 3/22
 Connected github and firebase database together by using angularfire
+
+3/29
+Created a form to add cards to the entertainment tab that sends the data received to the backend. Added 3 cards to demonstrate function

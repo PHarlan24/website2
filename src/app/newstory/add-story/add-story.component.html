@@ -1,0 +1,37 @@
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-8">
+            <form #postForm="ngForm" (ngSubmit)="addNews(postForm.value)">
+
+                <div class="input-group">
+                    <span class="input-group-text">
+                        News Category:
+                    </span>
+                    <input type="text" class="form-control" ngModel name="subtitle">
+                </div>
+
+                <div class="input-group">
+                    <span class="input-group-text">
+                        News Image:
+                    </span>
+                    <input type="text" class="form-control" ngModel name="img">
+                </div>
+
+                <div class="input-group">
+                    <span class="input-group-text">
+                        News Title:
+                    </span>
+                    <input type="text" class="form-control" ngModel name="title">
+                </div>
+
+                
+                 <button type="submit" class="btn btn-light">Add News</button>   
+                
+                
+
+            </form>
+        </div>
+    </div>
+</div>

@@ -7,12 +7,17 @@ import { NewsComponent } from 'src/navigation/news.component';
 import { LocalComponent } from 'src/navigation/local.component';
 import { EntertainmentComponent } from 'src/navigation/entertainment.component';
 import { PoliticsComponent } from 'src/navigation/politics.component';
+import { AddStoryComponent } from './newstory/add-story/add-story.component';
 
 const routes:Routes = [
-  {
-path: '',
-component: HomeLayoutComponent
-  },
+  
+{
+  path: '',component: HomeLayoutComponent
+},
+{
+  path: 'admin',component: AddStoryComponent
+},
+
 {
   path: 'latest', 
 component: LastestComponent 

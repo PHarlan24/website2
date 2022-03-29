@@ -20,6 +20,9 @@ import { HttpClientModule } from '@angular/common/http';
 import { AngularFireModule } from '@angular/fire/compat';
 import { environment } from '../environments/environment';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
+import { AddStoryComponent } from './newstory/add-story/add-story.component';
+import { FormsModule } from '@angular/forms';
+
 
 
 
@@ -39,7 +42,9 @@ import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
     PoliticsComponent,
     LatestNewsComponent,
     EntertainmentNewsInBriefComponent,
-    UserInfoComponent
+    UserInfoComponent,
+    AddStoryComponent
+  
     
 
 
@@ -49,7 +54,8 @@ import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
     AppRoutingModule,
     HttpClientModule,
     AngularFireModule.initializeApp(environment.firebase),
-    AngularFirestoreModule
+    AngularFirestoreModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

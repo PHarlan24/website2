@@ -17,4 +17,8 @@ export class EntertainmentService{
     public getNew(index:number){
         
     }
+
+    public addNews(product : MockNewsInBriefModel){
+        this.db.list<MockNewsInBriefModel>("products").push(product);
+    }
 }
