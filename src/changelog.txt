@@ -24,3 +24,7 @@ Connected github and firebase database together by using angularfire
 
 3/29
 Created a form to add cards to the entertainment tab that sends the data received to the backend. Added 3 cards to demonstrate function
+
+4/13
+In this lab, we enabled firebase authentication by creating a component and web page that either signs a user in or creates a new account for the user.
+This authentication service will store all new users and previous users in the firebase database.

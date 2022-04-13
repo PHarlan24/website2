@@ -8,6 +8,7 @@ import { LocalComponent } from 'src/navigation/local.component';
 import { EntertainmentComponent } from 'src/navigation/entertainment.component';
 import { PoliticsComponent } from 'src/navigation/politics.component';
 import { AddStoryComponent } from './newstory/add-story/add-story.component';
+import { AuthenticationComponent } from './auth/authentication/authentication.component';
 
 const routes:Routes = [
   
@@ -41,6 +42,10 @@ component: LastestComponent
 {
   path: 'politics',
   component: PoliticsComponent
+},
+{
+  path: 'auth',
+  component: AuthenticationComponent
 }
 ];
 

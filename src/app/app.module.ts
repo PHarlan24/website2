@@ -22,6 +22,7 @@ import { environment } from '../environments/environment';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 import { AddStoryComponent } from './newstory/add-story/add-story.component';
 import { FormsModule } from '@angular/forms';
+import { AuthenticationComponent } from './auth/authentication/authentication.component';
 
 
 
@@ -43,7 +44,8 @@ import { FormsModule } from '@angular/forms';
     LatestNewsComponent,
     EntertainmentNewsInBriefComponent,
     UserInfoComponent,
-    AddStoryComponent
+    AddStoryComponent,
+    AuthenticationComponent
   
     
 
